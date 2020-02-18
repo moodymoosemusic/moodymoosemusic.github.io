@@ -1,4 +1,4 @@
-$.ajax('https://rest.bandsintown.com/artists/Bad Religion/events', {
+$.ajax('https://rest.bandsintown.com/artists/Moody Moose/events', {
   data: {
     api_version: '2.0',
     //date: '2014-01-01,2016-12-31',
