@@ -4,7 +4,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
+	<script src="assets/js/jquery.min.js"></script>
 	<head>
 		<title>Moody Moose</title>
 		<meta charset="utf-8" />
@@ -28,11 +30,17 @@
 						<nav>
 							<ul>
 								<li><a href="#about">About</a></li>
-								<li><a href="#tour">Tour</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#tour">Shows</a></li>
+								<li><a href="#media">Media</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
+
 						</nav>
+						<ul class="icons">
+									<li><a href="https://www.facebook.com/moodymoosemusic/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/moodymoosemusic/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.youtube.com/channel/UCW8OBb4DsHEXDaq0JhJoaeQ/videos" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+								</ul>
 					</header>
 
 				<!-- Main -->
@@ -48,19 +56,28 @@
 
 						<!-- Work -->
 							<article id="tour">
-								<h2 class="major">Tour</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>YEEEEEEEEEEE.</p>
-								<p>On tourrrrr skeeeeeerrrrrr.</p>
+								<h2 class="major">Shows</h2>
+								<span class="image main"><img src="images/moodymoosepearledit.jpg" alt="" /></span>
+								<div class="concerts-list"></div>
+								<script src="assets/js/bandsintown.js"></script>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>WOOOOOOOOOOOOOO.</p>
+								<span class="image main"><img src="images/moodymoosegroup.jpg" alt="" /></span>
+								<p>Moody Moose is a jam-infused rock band out of Baltimore, MD. MacRae Collie (guitar/vocals), JC Senatore (keyboard/vocals), Colin (bass), and Jason Heilbrunn (drums/vocals) grew up in Baltimore and have been playing music together for years. The quartet brings head-bob inducing, high energy funk, rock, jazz, and improvisation to listeners’ ears. It’s tough to put their music under one genre, as their influences stem from the likes of Little Feat, Phish, The Grateful Dead, Umphrey’s McGee, Jimi Hendrix, Led Zeppelin, and many others.</p>
 							</article>
 
+						<!-- Intro -->
+							<article id="media">
+								<h2 class="major">Media</h2>
+								<div class="inner">
+								<iframe align="center" width="500" height="300" src="https://www.youtube.com/embed/0ktHpTPa4XE"></iframe>
+								<iframe width="500" height="300" src="https://www.youtube.com/embed/CVjAFKAk1zs"></iframe>
+								<iframe width="500" height="300" src="https://www.youtube.com/embed/pKZlEGvaG78"></iframe>
+								</div>
+							</article>
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
@@ -84,12 +101,6 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
 							</article>
 
 						<!-- Elements -->
@@ -347,7 +358,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<div id="bg"></div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+	
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>

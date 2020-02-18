@@ -635,6 +635,9 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		.icon.solid:before {
+			font-family: 'Font Awesome 5 Free';
+		}
 
 /* Image */
 
@@ -718,7 +721,10 @@ input, select, textarea {
 			.image.main {
 				margin: 1.5rem 0;
 			}
-
+			iframe {
+				width: 300px;
+				height: 200px;
+			}
 		}
 
 /* List */
@@ -931,6 +937,9 @@ input, select, textarea {
 
 /* Table */
 
+	.concerts-list {
+		  border-bottom: 1px solid #dddddd;
+	}
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
