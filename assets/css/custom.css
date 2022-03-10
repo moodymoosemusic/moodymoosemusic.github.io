@@ -2,6 +2,14 @@
 	width: 500px; 
 	height: 300px;	
 }
+
+@media screen and (max-width: 736px) {
+	#moose-logo {
+			width: 300px; 
+			height: 200px;	
+	}
+}
+
 iframe {
 	margin-bottom: 10px;
 }
