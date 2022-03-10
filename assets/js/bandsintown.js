@@ -13,7 +13,7 @@ window.createPastConcertsList = function (res) {
   console.log(res)
   $('body').append(res)
   var concerts = res.sort(function (a, b) {
-    return new Date(b.datetime) - new Date(a.datetime)
+    return new Date(a.datetime) - new Date(b.datetime)
   })
   console.log(concerts)
   var $container = $('.concerts-list')
@@ -24,7 +24,7 @@ window.createPastConcertsList = function (res) {
 
   $.each(concerts, function (index, concert) {
     var date = concert.datetime.match(/(\d\d\d\d)-(\d\d)-(\d\d)/)
-    var dateString = date[3] + '/' + date[2] + '/' + date[1]
+    var dateString = date[2] + '/' + date[3] + '/' + date[1]
     var url = $("<a>").attr({href: concert.url, class: "icon solid fa-ticket-alt" })
     var $tr = $('<tr class="concerts-list" />')
     $tr.append($('<td class="spacer" />'))
