@@ -937,9 +937,9 @@ input, select, textarea {
 
 /* Table */
 
-	.concerts-list {
+/*	.concerts-list {
 		  border-bottom: 1px solid #dddddd;
-	}
+	}*/
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;

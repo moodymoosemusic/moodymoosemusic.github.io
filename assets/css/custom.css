@@ -12,7 +12,26 @@
 
 iframe {
 	margin-bottom: 10px;
+	border-radius: 5px;
 }
+
+tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tony {
   /* Start the shake animation and make the animation last for 0.5 seconds */
